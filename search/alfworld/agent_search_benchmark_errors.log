@@ -1,0 +1,1379 @@
+
+Time: 2025-07-07 13:25:48.021436
+Agent configuration: {'planning': 'none', 'reasoning': 'test', 'tooluse': 'none', 'memory': 'none'}
+Error running benchmark: name 'PlanningTest' is not defined
+Detailed error info:
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/agent_search.py", line 96, in run_benchmark
+    performance = run_alfworld(
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 157, in run_alfworld
+    planning_module, reasoning_module, tooluse_module, memory_module = ModuleMap(planning, reasoning, tooluse, memory)
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 39, in ModuleMap
+    'test': PlanningTest,
+NameError: name 'PlanningTest' is not defined. Did you mean: 'PlanningBase'?
+
+--------------------------------------------------------------------------------
+
+Time: 2025-07-07 13:25:48.037372
+Agent configuration: {'planning': 'test', 'reasoning': 'io', 'tooluse': 'none', 'memory': 'none'}
+Error running benchmark: name 'PlanningTest' is not defined
+Detailed error info:
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/agent_search.py", line 96, in run_benchmark
+    performance = run_alfworld(
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 157, in run_alfworld
+    planning_module, reasoning_module, tooluse_module, memory_module = ModuleMap(planning, reasoning, tooluse, memory)
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 39, in ModuleMap
+    'test': PlanningTest,
+NameError: name 'PlanningTest' is not defined. Did you mean: 'PlanningBase'?
+
+--------------------------------------------------------------------------------
+
+Time: 2025-07-07 13:25:48.043527
+Agent configuration: {'planning': 'none', 'reasoning': 'io', 'tooluse': 'none', 'memory': 'test'}
+Error running benchmark: name 'PlanningTest' is not defined
+Detailed error info:
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/agent_search.py", line 96, in run_benchmark
+    performance = run_alfworld(
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 157, in run_alfworld
+    planning_module, reasoning_module, tooluse_module, memory_module = ModuleMap(planning, reasoning, tooluse, memory)
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 39, in ModuleMap
+    'test': PlanningTest,
+NameError: name 'PlanningTest' is not defined. Did you mean: 'PlanningBase'?
+
+--------------------------------------------------------------------------------
+
+Time: 2025-07-07 13:25:50.435331
+Agent configuration: {'reasoning': 'test', 'tooluse': 'none', 'memory': 'none'}
+Error running benchmark: 'planning'
+Detailed error info:
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/agent_search.py", line 97, in run_benchmark
+    planning=agent['planning'],
+KeyError: 'planning'
+
+--------------------------------------------------------------------------------
+
+Time: 2025-07-07 13:25:50.572003
+Agent configuration: {'planning': 'none', 'tooluse': 'none', 'memory': 'none'}
+Error running benchmark: 'reasoning'
+Detailed error info:
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/agent_search.py", line 98, in run_benchmark
+    reasoning=agent['reasoning'],
+KeyError: 'reasoning'
+
+--------------------------------------------------------------------------------
+
+Time: 2025-07-07 22:46:41.615259
+Agent configuration: {'planning': 'none', 'reasoning': 'test', 'tooluse': 'none', 'memory': 'none'}
+Error running benchmark: name 'PlanningTest' is not defined
+Detailed error info:
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/agent_search.py", line 96, in run_benchmark
+    performance = run_alfworld(
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 157, in run_alfworld
+    planning_module, reasoning_module, tooluse_module, memory_module = ModuleMap(planning, reasoning, tooluse, memory)
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 39, in ModuleMap
+    'test': PlanningTest,
+NameError: name 'PlanningTest' is not defined. Did you mean: 'PlanningBase'?
+
+--------------------------------------------------------------------------------
+
+Time: 2025-07-07 22:46:41.629451
+Agent configuration: {'planning': 'test', 'reasoning': 'io', 'tooluse': 'none', 'memory': 'none'}
+Error running benchmark: name 'PlanningTest' is not defined
+Detailed error info:
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/agent_search.py", line 96, in run_benchmark
+    performance = run_alfworld(
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 157, in run_alfworld
+    planning_module, reasoning_module, tooluse_module, memory_module = ModuleMap(planning, reasoning, tooluse, memory)
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 39, in ModuleMap
+    'test': PlanningTest,
+NameError: name 'PlanningTest' is not defined. Did you mean: 'PlanningBase'?
+
+--------------------------------------------------------------------------------
+
+Time: 2025-07-07 22:46:41.638805
+Agent configuration: {'planning': 'none', 'reasoning': 'io', 'tooluse': 'none', 'memory': 'test'}
+Error running benchmark: name 'PlanningTest' is not defined
+Detailed error info:
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/agent_search.py", line 96, in run_benchmark
+    performance = run_alfworld(
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 157, in run_alfworld
+    planning_module, reasoning_module, tooluse_module, memory_module = ModuleMap(planning, reasoning, tooluse, memory)
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 39, in ModuleMap
+    'test': PlanningTest,
+NameError: name 'PlanningTest' is not defined. Did you mean: 'PlanningBase'?
+
+--------------------------------------------------------------------------------
+
+Time: 2025-07-07 22:46:44.823042
+Agent configuration: {'reasoning': 'test', 'tooluse': 'none', 'memory': 'none'}
+Error running benchmark: 'planning'
+Detailed error info:
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/agent_search.py", line 97, in run_benchmark
+    planning=agent['planning'],
+KeyError: 'planning'
+
+--------------------------------------------------------------------------------
+
+Time: 2025-07-07 22:46:44.992086
+Agent configuration: {'planning': 'none', 'tooluse': 'none', 'memory': 'none'}
+Error running benchmark: 'reasoning'
+Detailed error info:
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/agent_search.py", line 98, in run_benchmark
+    reasoning=agent['reasoning'],
+KeyError: 'reasoning'
+
+--------------------------------------------------------------------------------
+
+Time: 2025-07-07 23:44:37.185027
+Agent configuration: {'planning': 'none', 'reasoning': 'test', 'tooluse': 'none', 'memory': 'none'}
+Error running benchmark: name 'PlanningTest' is not defined
+Detailed error info:
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/agent_search.py", line 96, in run_benchmark
+    performance = run_alfworld(
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 157, in run_alfworld
+    planning_module, reasoning_module, tooluse_module, memory_module = ModuleMap(planning, reasoning, tooluse, memory)
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 39, in ModuleMap
+    'test': PlanningTest,
+NameError: name 'PlanningTest' is not defined. Did you mean: 'PlanningBase'?
+
+--------------------------------------------------------------------------------
+
+Time: 2025-07-07 23:44:37.199800
+Agent configuration: {'planning': 'test', 'reasoning': 'io', 'tooluse': 'none', 'memory': 'none'}
+Error running benchmark: name 'PlanningTest' is not defined
+Detailed error info:
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/agent_search.py", line 96, in run_benchmark
+    performance = run_alfworld(
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 157, in run_alfworld
+    planning_module, reasoning_module, tooluse_module, memory_module = ModuleMap(planning, reasoning, tooluse, memory)
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 39, in ModuleMap
+    'test': PlanningTest,
+NameError: name 'PlanningTest' is not defined. Did you mean: 'PlanningBase'?
+
+--------------------------------------------------------------------------------
+
+Time: 2025-07-07 23:44:37.200020
+Agent configuration: {'planning': 'none', 'reasoning': 'io', 'tooluse': 'none', 'memory': 'test'}
+Error running benchmark: name 'PlanningTest' is not defined
+Detailed error info:
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/agent_search.py", line 96, in run_benchmark
+    performance = run_alfworld(
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 157, in run_alfworld
+    planning_module, reasoning_module, tooluse_module, memory_module = ModuleMap(planning, reasoning, tooluse, memory)
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 39, in ModuleMap
+    'test': PlanningTest,
+NameError: name 'PlanningTest' is not defined. Did you mean: 'PlanningBase'?
+
+--------------------------------------------------------------------------------
+
+Time: 2025-07-07 23:44:39.684846
+Agent configuration: {'reasoning': 'test', 'tooluse': 'none', 'memory': 'none'}
+Error running benchmark: 'planning'
+Detailed error info:
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/agent_search.py", line 97, in run_benchmark
+    planning=agent['planning'],
+KeyError: 'planning'
+
+--------------------------------------------------------------------------------
+
+Time: 2025-07-07 23:44:39.837641
+Agent configuration: {'planning': 'none', 'tooluse': 'none', 'memory': 'none'}
+Error running benchmark: 'reasoning'
+Detailed error info:
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/agent_search.py", line 98, in run_benchmark
+    reasoning=agent['reasoning'],
+KeyError: 'reasoning'
+
+--------------------------------------------------------------------------------
+
+Time: 2025-07-08 19:12:16.135188
+Agent configuration: {'planning': 'none', 'reasoning': 'test', 'tooluse': 'none', 'memory': 'none'}
+Error running benchmark: unexpected indent (reasoning_modules.py, line 364)
+Detailed error info:
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 151, in <module>
+    importlib.reload(sys.modules['module_map'])
+KeyError: 'module_map'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 4, in <module>
+    importlib.reload(sys.modules['reasoning_modules'])
+KeyError: 'reasoning_modules'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/agent_search.py", line 92, in run_benchmark
+    from search.alfworld import alfworld_run
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 155, in <module>
+    from module_map import ModuleMap
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 8, in <module>
+    from reasoning_modules import *
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/reasoning_modules.py", line 364
+    else:
+IndentationError: unexpected indent
+
+--------------------------------------------------------------------------------
+
+Time: 2025-07-08 19:12:16.135188
+Agent configuration: {'planning': 'none', 'reasoning': 'io', 'tooluse': 'none', 'memory': 'test'}
+Error running benchmark: unexpected indent (reasoning_modules.py, line 364)
+Detailed error info:
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 151, in <module>
+    importlib.reload(sys.modules['module_map'])
+KeyError: 'module_map'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 4, in <module>
+    importlib.reload(sys.modules['reasoning_modules'])
+KeyError: 'reasoning_modules'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/agent_search.py", line 92, in run_benchmark
+    from search.alfworld import alfworld_run
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 155, in <module>
+    from module_map import ModuleMap
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 8, in <module>
+    from reasoning_modules import *
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/reasoning_modules.py", line 364
+    else:
+IndentationError: unexpected indent
+
+--------------------------------------------------------------------------------
+
+Time: 2025-07-08 19:12:16.135612
+Agent configuration: {'planning': 'test', 'reasoning': 'io', 'tooluse': 'none', 'memory': 'none'}
+Error running benchmark: unexpected indent (reasoning_modules.py, line 364)
+Detailed error info:
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 151, in <module>
+    importlib.reload(sys.modules['module_map'])
+KeyError: 'module_map'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 4, in <module>
+    importlib.reload(sys.modules['reasoning_modules'])
+KeyError: 'reasoning_modules'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/agent_search.py", line 92, in run_benchmark
+    from search.alfworld import alfworld_run
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 155, in <module>
+    from module_map import ModuleMap
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 8, in <module>
+    from reasoning_modules import *
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/reasoning_modules.py", line 364
+    else:
+IndentationError: unexpected indent
+
+--------------------------------------------------------------------------------
+
+Time: 2025-07-08 19:12:18.351380
+Agent configuration: {'reasoning': 'test', 'tooluse': 'none', 'memory': 'none'}
+Error running benchmark: unexpected indent (reasoning_modules.py, line 364)
+Detailed error info:
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 151, in <module>
+    importlib.reload(sys.modules['module_map'])
+KeyError: 'module_map'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 4, in <module>
+    importlib.reload(sys.modules['reasoning_modules'])
+KeyError: 'reasoning_modules'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/agent_search.py", line 92, in run_benchmark
+    from search.alfworld import alfworld_run
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 155, in <module>
+    from module_map import ModuleMap
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 8, in <module>
+    from reasoning_modules import *
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/reasoning_modules.py", line 364
+    else:
+IndentationError: unexpected indent
+
+--------------------------------------------------------------------------------
+
+Time: 2025-07-08 19:12:18.620126
+Agent configuration: {'planning': 'none', 'tooluse': 'none', 'memory': 'none'}
+Error running benchmark: unexpected indent (reasoning_modules.py, line 364)
+Detailed error info:
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 151, in <module>
+    importlib.reload(sys.modules['module_map'])
+KeyError: 'module_map'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 4, in <module>
+    importlib.reload(sys.modules['reasoning_modules'])
+KeyError: 'reasoning_modules'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/agent_search.py", line 92, in run_benchmark
+    from search.alfworld import alfworld_run
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 155, in <module>
+    from module_map import ModuleMap
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 8, in <module>
+    from reasoning_modules import *
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/reasoning_modules.py", line 364
+    else:
+IndentationError: unexpected indent
+
+--------------------------------------------------------------------------------
+
+Time: 2025-07-08 20:14:47.415878
+Agent configuration: {'planning': 'test', 'reasoning': 'io', 'tooluse': 'none', 'memory': 'none'}
+Error running benchmark: unexpected indent (reasoning_modules.py, line 364)
+Detailed error info:
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 151, in <module>
+    importlib.reload(sys.modules['module_map'])
+KeyError: 'module_map'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 4, in <module>
+    importlib.reload(sys.modules['reasoning_modules'])
+KeyError: 'reasoning_modules'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/agent_search.py", line 92, in run_benchmark
+    from search.alfworld import alfworld_run
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 155, in <module>
+    from module_map import ModuleMap
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 8, in <module>
+    from reasoning_modules import *
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/reasoning_modules.py", line 364
+    else:
+IndentationError: unexpected indent
+
+--------------------------------------------------------------------------------
+
+Time: 2025-07-08 20:14:47.461555
+Agent configuration: {'planning': 'none', 'reasoning': 'io', 'tooluse': 'none', 'memory': 'test'}
+Error running benchmark: unexpected indent (reasoning_modules.py, line 364)
+Detailed error info:
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 151, in <module>
+    importlib.reload(sys.modules['module_map'])
+KeyError: 'module_map'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 4, in <module>
+    importlib.reload(sys.modules['reasoning_modules'])
+KeyError: 'reasoning_modules'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/agent_search.py", line 92, in run_benchmark
+    from search.alfworld import alfworld_run
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 155, in <module>
+    from module_map import ModuleMap
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 8, in <module>
+    from reasoning_modules import *
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/reasoning_modules.py", line 364
+    else:
+IndentationError: unexpected indent
+
+--------------------------------------------------------------------------------
+
+Time: 2025-07-08 20:14:47.478170
+Agent configuration: {'planning': 'none', 'reasoning': 'test', 'tooluse': 'none', 'memory': 'none'}
+Error running benchmark: unexpected indent (reasoning_modules.py, line 364)
+Detailed error info:
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 151, in <module>
+    importlib.reload(sys.modules['module_map'])
+KeyError: 'module_map'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 4, in <module>
+    importlib.reload(sys.modules['reasoning_modules'])
+KeyError: 'reasoning_modules'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/agent_search.py", line 92, in run_benchmark
+    from search.alfworld import alfworld_run
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 155, in <module>
+    from module_map import ModuleMap
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 8, in <module>
+    from reasoning_modules import *
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/reasoning_modules.py", line 364
+    else:
+IndentationError: unexpected indent
+
+--------------------------------------------------------------------------------
+
+Time: 2025-07-08 20:14:49.717840
+Agent configuration: {'reasoning': 'test', 'tooluse': 'none', 'memory': 'none'}
+Error running benchmark: unexpected indent (reasoning_modules.py, line 364)
+Detailed error info:
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 151, in <module>
+    importlib.reload(sys.modules['module_map'])
+KeyError: 'module_map'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 4, in <module>
+    importlib.reload(sys.modules['reasoning_modules'])
+KeyError: 'reasoning_modules'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/agent_search.py", line 92, in run_benchmark
+    from search.alfworld import alfworld_run
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 155, in <module>
+    from module_map import ModuleMap
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 8, in <module>
+    from reasoning_modules import *
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/reasoning_modules.py", line 364
+    else:
+IndentationError: unexpected indent
+
+--------------------------------------------------------------------------------
+
+Time: 2025-07-08 20:14:49.989523
+Agent configuration: {'planning': 'none', 'tooluse': 'none', 'memory': 'none'}
+Error running benchmark: unexpected indent (reasoning_modules.py, line 364)
+Detailed error info:
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 151, in <module>
+    importlib.reload(sys.modules['module_map'])
+KeyError: 'module_map'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 4, in <module>
+    importlib.reload(sys.modules['reasoning_modules'])
+KeyError: 'reasoning_modules'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/agent_search.py", line 92, in run_benchmark
+    from search.alfworld import alfworld_run
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 155, in <module>
+    from module_map import ModuleMap
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 8, in <module>
+    from reasoning_modules import *
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/reasoning_modules.py", line 364
+    else:
+IndentationError: unexpected indent
+
+--------------------------------------------------------------------------------
+
+Time: 2025-07-08 23:05:52.029199
+Agent configuration: {'planning': 'none', 'reasoning': 'test', 'tooluse': 'none', 'memory': 'none'}
+Error running benchmark: unexpected indent (reasoning_modules.py, line 364)
+Detailed error info:
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 151, in <module>
+    importlib.reload(sys.modules['module_map'])
+KeyError: 'module_map'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 4, in <module>
+    importlib.reload(sys.modules['reasoning_modules'])
+KeyError: 'reasoning_modules'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/agent_search.py", line 92, in run_benchmark
+    from search.alfworld import alfworld_run
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 155, in <module>
+    from module_map import ModuleMap
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 8, in <module>
+    from reasoning_modules import *
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/reasoning_modules.py", line 364
+    else:
+IndentationError: unexpected indent
+
+--------------------------------------------------------------------------------
+
+Time: 2025-07-08 23:05:52.032522
+Agent configuration: {'planning': 'test', 'reasoning': 'io', 'tooluse': 'none', 'memory': 'none'}
+Error running benchmark: unexpected indent (reasoning_modules.py, line 364)
+Detailed error info:
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 151, in <module>
+    importlib.reload(sys.modules['module_map'])
+KeyError: 'module_map'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 4, in <module>
+    importlib.reload(sys.modules['reasoning_modules'])
+KeyError: 'reasoning_modules'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/agent_search.py", line 92, in run_benchmark
+    from search.alfworld import alfworld_run
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 155, in <module>
+    from module_map import ModuleMap
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 8, in <module>
+    from reasoning_modules import *
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/reasoning_modules.py", line 364
+    else:
+IndentationError: unexpected indent
+
+--------------------------------------------------------------------------------
+
+Time: 2025-07-08 23:05:52.034228
+Agent configuration: {'planning': 'none', 'reasoning': 'io', 'tooluse': 'none', 'memory': 'test'}
+Error running benchmark: unexpected indent (reasoning_modules.py, line 364)
+Detailed error info:
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 151, in <module>
+    importlib.reload(sys.modules['module_map'])
+KeyError: 'module_map'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 4, in <module>
+    importlib.reload(sys.modules['reasoning_modules'])
+KeyError: 'reasoning_modules'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/agent_search.py", line 92, in run_benchmark
+    from search.alfworld import alfworld_run
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 155, in <module>
+    from module_map import ModuleMap
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 8, in <module>
+    from reasoning_modules import *
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/reasoning_modules.py", line 364
+    else:
+IndentationError: unexpected indent
+
+--------------------------------------------------------------------------------
+
+Time: 2025-07-08 23:05:54.364062
+Agent configuration: {'reasoning': 'test', 'tooluse': 'none', 'memory': 'none'}
+Error running benchmark: unexpected indent (reasoning_modules.py, line 364)
+Detailed error info:
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 151, in <module>
+    importlib.reload(sys.modules['module_map'])
+KeyError: 'module_map'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 4, in <module>
+    importlib.reload(sys.modules['reasoning_modules'])
+KeyError: 'reasoning_modules'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/agent_search.py", line 92, in run_benchmark
+    from search.alfworld import alfworld_run
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 155, in <module>
+    from module_map import ModuleMap
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 8, in <module>
+    from reasoning_modules import *
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/reasoning_modules.py", line 364
+    else:
+IndentationError: unexpected indent
+
+--------------------------------------------------------------------------------
+
+Time: 2025-07-08 23:05:54.638224
+Agent configuration: {'planning': 'none', 'tooluse': 'none', 'memory': 'none'}
+Error running benchmark: unexpected indent (reasoning_modules.py, line 364)
+Detailed error info:
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 151, in <module>
+    importlib.reload(sys.modules['module_map'])
+KeyError: 'module_map'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 4, in <module>
+    importlib.reload(sys.modules['reasoning_modules'])
+KeyError: 'reasoning_modules'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/agent_search.py", line 92, in run_benchmark
+    from search.alfworld import alfworld_run
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 155, in <module>
+    from module_map import ModuleMap
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 8, in <module>
+    from reasoning_modules import *
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/reasoning_modules.py", line 364
+    else:
+IndentationError: unexpected indent
+
+--------------------------------------------------------------------------------
+
+Time: 2025-07-08 23:11:00.821973
+Agent configuration: {'planning': 'none', 'reasoning': 'io', 'tooluse': 'none', 'memory': 'test'}
+Error running benchmark: unexpected indent (reasoning_modules.py, line 364)
+Detailed error info:
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 151, in <module>
+    importlib.reload(sys.modules['module_map'])
+KeyError: 'module_map'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 4, in <module>
+    importlib.reload(sys.modules['reasoning_modules'])
+KeyError: 'reasoning_modules'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/agent_search.py", line 92, in run_benchmark
+    from search.alfworld import alfworld_run
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 155, in <module>
+    from module_map import ModuleMap
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 8, in <module>
+    from reasoning_modules import *
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/reasoning_modules.py", line 364
+    else:
+IndentationError: unexpected indent
+
+--------------------------------------------------------------------------------
+
+Time: 2025-07-08 23:11:00.835182
+Agent configuration: {'planning': 'test', 'reasoning': 'io', 'tooluse': 'none', 'memory': 'none'}
+Error running benchmark: unexpected indent (reasoning_modules.py, line 364)
+Detailed error info:
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 151, in <module>
+    importlib.reload(sys.modules['module_map'])
+KeyError: 'module_map'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 4, in <module>
+    importlib.reload(sys.modules['reasoning_modules'])
+KeyError: 'reasoning_modules'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/agent_search.py", line 92, in run_benchmark
+    from search.alfworld import alfworld_run
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 155, in <module>
+    from module_map import ModuleMap
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 8, in <module>
+    from reasoning_modules import *
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/reasoning_modules.py", line 364
+    else:
+IndentationError: unexpected indent
+
+--------------------------------------------------------------------------------
+
+Time: 2025-07-08 23:11:00.851506
+Agent configuration: {'planning': 'none', 'reasoning': 'test', 'tooluse': 'none', 'memory': 'none'}
+Error running benchmark: unexpected indent (reasoning_modules.py, line 364)
+Detailed error info:
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 151, in <module>
+    importlib.reload(sys.modules['module_map'])
+KeyError: 'module_map'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 4, in <module>
+    importlib.reload(sys.modules['reasoning_modules'])
+KeyError: 'reasoning_modules'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/agent_search.py", line 92, in run_benchmark
+    from search.alfworld import alfworld_run
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 155, in <module>
+    from module_map import ModuleMap
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 8, in <module>
+    from reasoning_modules import *
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/reasoning_modules.py", line 364
+    else:
+IndentationError: unexpected indent
+
+--------------------------------------------------------------------------------
+
+Time: 2025-07-08 23:11:03.113552
+Agent configuration: {'reasoning': 'test', 'tooluse': 'none', 'memory': 'none'}
+Error running benchmark: unexpected indent (reasoning_modules.py, line 364)
+Detailed error info:
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 151, in <module>
+    importlib.reload(sys.modules['module_map'])
+KeyError: 'module_map'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 4, in <module>
+    importlib.reload(sys.modules['reasoning_modules'])
+KeyError: 'reasoning_modules'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/agent_search.py", line 92, in run_benchmark
+    from search.alfworld import alfworld_run
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 155, in <module>
+    from module_map import ModuleMap
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 8, in <module>
+    from reasoning_modules import *
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/reasoning_modules.py", line 364
+    else:
+IndentationError: unexpected indent
+
+--------------------------------------------------------------------------------
+
+Time: 2025-07-08 23:11:03.386980
+Agent configuration: {'planning': 'none', 'tooluse': 'none', 'memory': 'none'}
+Error running benchmark: unexpected indent (reasoning_modules.py, line 364)
+Detailed error info:
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 151, in <module>
+    importlib.reload(sys.modules['module_map'])
+KeyError: 'module_map'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 4, in <module>
+    importlib.reload(sys.modules['reasoning_modules'])
+KeyError: 'reasoning_modules'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/agent_search.py", line 92, in run_benchmark
+    from search.alfworld import alfworld_run
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 155, in <module>
+    from module_map import ModuleMap
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 8, in <module>
+    from reasoning_modules import *
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/reasoning_modules.py", line 364
+    else:
+IndentationError: unexpected indent
+
+--------------------------------------------------------------------------------
+
+Time: 2025-07-08 23:19:38.798990
+Agent configuration: {'planning': 'none', 'reasoning': 'test', 'tooluse': 'none', 'memory': 'none'}
+Error running benchmark: unexpected indent (reasoning_modules.py, line 364)
+Detailed error info:
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 151, in <module>
+    importlib.reload(sys.modules['module_map'])
+KeyError: 'module_map'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 4, in <module>
+    importlib.reload(sys.modules['reasoning_modules'])
+KeyError: 'reasoning_modules'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/agent_search.py", line 92, in run_benchmark
+    from search.alfworld import alfworld_run
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 155, in <module>
+    from module_map import ModuleMap
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 8, in <module>
+    from reasoning_modules import *
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/reasoning_modules.py", line 364
+    else:
+IndentationError: unexpected indent
+
+--------------------------------------------------------------------------------
+
+Time: 2025-07-08 23:19:38.826251
+Agent configuration: {'planning': 'none', 'reasoning': 'io', 'tooluse': 'none', 'memory': 'test'}
+Error running benchmark: unexpected indent (reasoning_modules.py, line 364)
+Detailed error info:
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 151, in <module>
+    importlib.reload(sys.modules['module_map'])
+KeyError: 'module_map'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 4, in <module>
+    importlib.reload(sys.modules['reasoning_modules'])
+KeyError: 'reasoning_modules'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/agent_search.py", line 92, in run_benchmark
+    from search.alfworld import alfworld_run
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 155, in <module>
+    from module_map import ModuleMap
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 8, in <module>
+    from reasoning_modules import *
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/reasoning_modules.py", line 364
+    else:
+IndentationError: unexpected indent
+
+--------------------------------------------------------------------------------
+
+Time: 2025-07-08 23:19:38.837120
+Agent configuration: {'planning': 'test', 'reasoning': 'io', 'tooluse': 'none', 'memory': 'none'}
+Error running benchmark: unexpected indent (reasoning_modules.py, line 364)
+Detailed error info:
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 151, in <module>
+    importlib.reload(sys.modules['module_map'])
+KeyError: 'module_map'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 4, in <module>
+    importlib.reload(sys.modules['reasoning_modules'])
+KeyError: 'reasoning_modules'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/agent_search.py", line 92, in run_benchmark
+    from search.alfworld import alfworld_run
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 155, in <module>
+    from module_map import ModuleMap
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 8, in <module>
+    from reasoning_modules import *
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/reasoning_modules.py", line 364
+    else:
+IndentationError: unexpected indent
+
+--------------------------------------------------------------------------------
+
+Time: 2025-07-08 23:19:41.305626
+Agent configuration: {'reasoning': 'test', 'tooluse': 'none', 'memory': 'none'}
+Error running benchmark: unexpected indent (reasoning_modules.py, line 364)
+Detailed error info:
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 151, in <module>
+    importlib.reload(sys.modules['module_map'])
+KeyError: 'module_map'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 4, in <module>
+    importlib.reload(sys.modules['reasoning_modules'])
+KeyError: 'reasoning_modules'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/agent_search.py", line 92, in run_benchmark
+    from search.alfworld import alfworld_run
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 155, in <module>
+    from module_map import ModuleMap
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 8, in <module>
+    from reasoning_modules import *
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/reasoning_modules.py", line 364
+    else:
+IndentationError: unexpected indent
+
+--------------------------------------------------------------------------------
+
+Time: 2025-07-08 23:19:41.635882
+Agent configuration: {'planning': 'none', 'tooluse': 'none', 'memory': 'none'}
+Error running benchmark: unexpected indent (reasoning_modules.py, line 364)
+Detailed error info:
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 151, in <module>
+    importlib.reload(sys.modules['module_map'])
+KeyError: 'module_map'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 4, in <module>
+    importlib.reload(sys.modules['reasoning_modules'])
+KeyError: 'reasoning_modules'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/agent_search.py", line 92, in run_benchmark
+    from search.alfworld import alfworld_run
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 155, in <module>
+    from module_map import ModuleMap
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 8, in <module>
+    from reasoning_modules import *
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/reasoning_modules.py", line 364
+    else:
+IndentationError: unexpected indent
+
+--------------------------------------------------------------------------------
+
+Time: 2025-07-08 23:19:46.920461
+Agent configuration: {'planning': 'none', 'reasoning': 'test', 'tooluse': 'none', 'memory': 'test'}
+Error running benchmark: unexpected indent (reasoning_modules.py, line 364)
+Detailed error info:
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 151, in <module>
+    importlib.reload(sys.modules['module_map'])
+KeyError: 'module_map'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 4, in <module>
+    importlib.reload(sys.modules['reasoning_modules'])
+KeyError: 'reasoning_modules'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/agent_search.py", line 92, in run_benchmark
+    from search.alfworld import alfworld_run
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 155, in <module>
+    from module_map import ModuleMap
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 8, in <module>
+    from reasoning_modules import *
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/reasoning_modules.py", line 364
+    else:
+IndentationError: unexpected indent
+
+--------------------------------------------------------------------------------
+
+Time: 2025-07-08 23:32:29.508581
+Agent configuration: {'planning': 'none', 'reasoning': 'io', 'tooluse': 'none', 'memory': 'test'}
+Error running benchmark: unexpected indent (reasoning_modules.py, line 364)
+Detailed error info:
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 151, in <module>
+    importlib.reload(sys.modules['module_map'])
+KeyError: 'module_map'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 4, in <module>
+    importlib.reload(sys.modules['reasoning_modules'])
+KeyError: 'reasoning_modules'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/agent_search.py", line 92, in run_benchmark
+    from search.alfworld import alfworld_run
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 155, in <module>
+    from module_map import ModuleMap
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 8, in <module>
+    from reasoning_modules import *
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/reasoning_modules.py", line 364
+    else:
+IndentationError: unexpected indent
+
+--------------------------------------------------------------------------------
+
+Time: 2025-07-08 23:32:29.519235
+Agent configuration: {'planning': 'test', 'reasoning': 'io', 'tooluse': 'none', 'memory': 'none'}
+Error running benchmark: unexpected indent (reasoning_modules.py, line 364)
+Detailed error info:
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 151, in <module>
+    importlib.reload(sys.modules['module_map'])
+KeyError: 'module_map'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 4, in <module>
+    importlib.reload(sys.modules['reasoning_modules'])
+KeyError: 'reasoning_modules'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/agent_search.py", line 92, in run_benchmark
+    from search.alfworld import alfworld_run
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 155, in <module>
+    from module_map import ModuleMap
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 8, in <module>
+    from reasoning_modules import *
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/reasoning_modules.py", line 364
+    else:
+IndentationError: unexpected indent
+
+--------------------------------------------------------------------------------
+
+Time: 2025-07-08 23:32:29.519678
+Agent configuration: {'planning': 'none', 'reasoning': 'test', 'tooluse': 'none', 'memory': 'none'}
+Error running benchmark: unexpected indent (reasoning_modules.py, line 364)
+Detailed error info:
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 151, in <module>
+    importlib.reload(sys.modules['module_map'])
+KeyError: 'module_map'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 4, in <module>
+    importlib.reload(sys.modules['reasoning_modules'])
+KeyError: 'reasoning_modules'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/agent_search.py", line 92, in run_benchmark
+    from search.alfworld import alfworld_run
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 155, in <module>
+    from module_map import ModuleMap
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 8, in <module>
+    from reasoning_modules import *
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/reasoning_modules.py", line 364
+    else:
+IndentationError: unexpected indent
+
+--------------------------------------------------------------------------------
+
+Time: 2025-07-08 23:32:29.856972
+Agent configuration: {'reasoning': 'test', 'tooluse': 'none', 'memory': 'none'}
+Error running benchmark: unexpected indent (reasoning_modules.py, line 364)
+Detailed error info:
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 151, in <module>
+    importlib.reload(sys.modules['module_map'])
+KeyError: 'module_map'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 4, in <module>
+    importlib.reload(sys.modules['reasoning_modules'])
+KeyError: 'reasoning_modules'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/agent_search.py", line 92, in run_benchmark
+    from search.alfworld import alfworld_run
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 155, in <module>
+    from module_map import ModuleMap
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 8, in <module>
+    from reasoning_modules import *
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/reasoning_modules.py", line 364
+    else:
+IndentationError: unexpected indent
+
+--------------------------------------------------------------------------------
+
+Time: 2025-07-08 23:32:30.028083
+Agent configuration: {'planning': 'none', 'tooluse': 'none', 'memory': 'none'}
+Error running benchmark: unexpected indent (reasoning_modules.py, line 364)
+Detailed error info:
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 151, in <module>
+    importlib.reload(sys.modules['module_map'])
+KeyError: 'module_map'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 4, in <module>
+    importlib.reload(sys.modules['reasoning_modules'])
+KeyError: 'reasoning_modules'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/agent_search.py", line 92, in run_benchmark
+    from search.alfworld import alfworld_run
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 155, in <module>
+    from module_map import ModuleMap
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 8, in <module>
+    from reasoning_modules import *
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/reasoning_modules.py", line 364
+    else:
+IndentationError: unexpected indent
+
+--------------------------------------------------------------------------------
+
+Time: 2025-07-08 23:32:49.370677
+Agent configuration: {'planning': 'test', 'reasoning': 'test', 'tooluse': 'none', 'memory': 'none'}
+Error running benchmark: unexpected indent (reasoning_modules.py, line 364)
+Detailed error info:
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 151, in <module>
+    importlib.reload(sys.modules['module_map'])
+KeyError: 'module_map'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 4, in <module>
+    importlib.reload(sys.modules['reasoning_modules'])
+KeyError: 'reasoning_modules'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/agent_search.py", line 92, in run_benchmark
+    from search.alfworld import alfworld_run
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 155, in <module>
+    from module_map import ModuleMap
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 8, in <module>
+    from reasoning_modules import *
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/reasoning_modules.py", line 364
+    else:
+IndentationError: unexpected indent
+
+--------------------------------------------------------------------------------
+
+Time: 2025-07-08 23:35:39.262046
+Agent configuration: {'planning': 'test', 'reasoning': 'io', 'tooluse': 'none', 'memory': 'none'}
+Error running benchmark: unexpected indent (reasoning_modules.py, line 364)
+Detailed error info:
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 151, in <module>
+    importlib.reload(sys.modules['module_map'])
+KeyError: 'module_map'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 4, in <module>
+    importlib.reload(sys.modules['reasoning_modules'])
+KeyError: 'reasoning_modules'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/agent_search.py", line 92, in run_benchmark
+    from search.alfworld import alfworld_run
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 155, in <module>
+    from module_map import ModuleMap
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 8, in <module>
+    from reasoning_modules import *
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/reasoning_modules.py", line 364
+    else:
+IndentationError: unexpected indent
+
+--------------------------------------------------------------------------------
+
+Time: 2025-07-08 23:35:39.271587
+Agent configuration: {'planning': 'none', 'reasoning': 'io', 'tooluse': 'none', 'memory': 'test'}
+Error running benchmark: unexpected indent (reasoning_modules.py, line 364)
+Detailed error info:
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 151, in <module>
+    importlib.reload(sys.modules['module_map'])
+KeyError: 'module_map'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 4, in <module>
+    importlib.reload(sys.modules['reasoning_modules'])
+KeyError: 'reasoning_modules'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/agent_search.py", line 92, in run_benchmark
+    from search.alfworld import alfworld_run
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 155, in <module>
+    from module_map import ModuleMap
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 8, in <module>
+    from reasoning_modules import *
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/reasoning_modules.py", line 364
+    else:
+IndentationError: unexpected indent
+
+--------------------------------------------------------------------------------
+
+Time: 2025-07-08 23:35:39.289626
+Agent configuration: {'planning': 'none', 'reasoning': 'test', 'tooluse': 'none', 'memory': 'none'}
+Error running benchmark: unexpected indent (reasoning_modules.py, line 364)
+Detailed error info:
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 151, in <module>
+    importlib.reload(sys.modules['module_map'])
+KeyError: 'module_map'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 4, in <module>
+    importlib.reload(sys.modules['reasoning_modules'])
+KeyError: 'reasoning_modules'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/agent_search.py", line 92, in run_benchmark
+    from search.alfworld import alfworld_run
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 155, in <module>
+    from module_map import ModuleMap
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 8, in <module>
+    from reasoning_modules import *
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/reasoning_modules.py", line 364
+    else:
+IndentationError: unexpected indent
+
+--------------------------------------------------------------------------------
+
+Time: 2025-07-08 23:35:39.483188
+Agent configuration: {'reasoning': 'test', 'tooluse': 'none', 'memory': 'none'}
+Error running benchmark: unexpected indent (reasoning_modules.py, line 364)
+Detailed error info:
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 151, in <module>
+    importlib.reload(sys.modules['module_map'])
+KeyError: 'module_map'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 4, in <module>
+    importlib.reload(sys.modules['reasoning_modules'])
+KeyError: 'reasoning_modules'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/agent_search.py", line 92, in run_benchmark
+    from search.alfworld import alfworld_run
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 155, in <module>
+    from module_map import ModuleMap
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 8, in <module>
+    from reasoning_modules import *
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/reasoning_modules.py", line 364
+    else:
+IndentationError: unexpected indent
+
+--------------------------------------------------------------------------------
+
+Time: 2025-07-08 23:35:39.774162
+Agent configuration: {'planning': 'none', 'tooluse': 'none', 'memory': 'none'}
+Error running benchmark: unexpected indent (reasoning_modules.py, line 364)
+Detailed error info:
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 151, in <module>
+    importlib.reload(sys.modules['module_map'])
+KeyError: 'module_map'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 4, in <module>
+    importlib.reload(sys.modules['reasoning_modules'])
+KeyError: 'reasoning_modules'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/agent_search.py", line 92, in run_benchmark
+    from search.alfworld import alfworld_run
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 155, in <module>
+    from module_map import ModuleMap
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 8, in <module>
+    from reasoning_modules import *
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/reasoning_modules.py", line 364
+    else:
+IndentationError: unexpected indent
+
+--------------------------------------------------------------------------------
+
+Time: 2025-07-08 23:35:45.826531
+Agent configuration: {'planning': 'none', 'reasoning': 'test', 'tooluse': 'none', 'memory': 'test'}
+Error running benchmark: unexpected indent (reasoning_modules.py, line 364)
+Detailed error info:
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 151, in <module>
+    importlib.reload(sys.modules['module_map'])
+KeyError: 'module_map'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 4, in <module>
+    importlib.reload(sys.modules['reasoning_modules'])
+KeyError: 'reasoning_modules'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/agent_search.py", line 92, in run_benchmark
+    from search.alfworld import alfworld_run
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/alfworld_run.py", line 155, in <module>
+    from module_map import ModuleMap
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/module_map.py", line 8, in <module>
+    from reasoning_modules import *
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/alfworld/reasoning_modules.py", line 364
+    else:
+IndentationError: unexpected indent
+
+--------------------------------------------------------------------------------

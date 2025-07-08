@@ -1,0 +1,74 @@
+[
+  {
+    "config": {
+      "planning": "deps",
+      "reasoning": "cot",
+      "tooluse": "anytool",
+      "memory": "dilu"
+    },
+    "performance": 0.78
+  },
+  {
+    "config": {
+      "planning": "hugginggpt",
+      "reasoning": "cotsc",
+      "tooluse": "io",
+      "memory": "generative"
+    },
+    "performance": 0.65
+  },
+  {
+    "config": {
+      "planning": "io",
+      "reasoning": "dilu",
+      "tooluse": "toolbench",
+      "memory": "tp"
+    },
+    "performance": 0.72
+  },
+  {
+    "config": {
+      "planning": "openagi",
+      "reasoning": "selfrefine",
+      "tooluse": "toolbenchformer",
+      "memory": "voyager"
+    },
+    "performance": 0.61
+  },
+  {
+    "config": {
+      "planning": "td",
+      "reasoning": "selfreflectivetot",
+      "tooluse": "toolformer",
+      "memory": "dilu"
+    },
+    "performance": 0.67
+  },
+  {
+    "config": {
+      "planning": "voyager",
+      "reasoning": "stepback",
+      "tooluse": "anytool",
+      "memory": "generative"
+    },
+    "performance": 0.75
+  },
+  {
+    "config": {
+      "planning": "deps",
+      "reasoning": "tot",
+      "tooluse": "none",
+      "memory": "tp"
+    },
+    "performance": 0.69
+  },
+  {
+    "config": {
+      "planning": "hugginggpt",
+      "reasoning": "io",
+      "tooluse": "none",
+      "memory": "voyager"
+    },
+    "performance": 0.64
+  }
+]

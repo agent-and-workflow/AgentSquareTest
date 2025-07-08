@@ -1,0 +1,102 @@
+
+Time: 2025-07-07 13:25:52.369669
+Error in agent search process: [Errno 2] No such file or directory: 'alfworld_results.json'
+Detailed error info:
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/agent_search.py", line 471, in agent_search
+    predicted_scores = predict_performance(candidates, archives, filtered_recombination_agents)
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/module_predictor.py", line 136, in predict_performance
+    with open('alfworld_results.json', 'r') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'alfworld_results.json'
+
+--------------------------------------------------------------------------------
+
+Time: 2025-07-07 22:46:46.939068
+Error in agent search process: [Errno 2] No such file or directory: 'alfworld_results.json'
+Detailed error info:
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/agent_search.py", line 481, in agent_search
+    predicted_scores = predict_performance(candidates, archives, filtered_recombination_agents)
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/module_predictor.py", line 136, in predict_performance
+    with open('alfworld_results.json', 'r') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'alfworld_results.json'
+
+--------------------------------------------------------------------------------
+
+Time: 2025-07-07 23:44:41.678841
+Error in agent search process: Expecting value: line 1 column 1 (char 0)
+Detailed error info:
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/agent_search.py", line 481, in agent_search
+    predicted_scores = predict_performance(candidates, archives, filtered_recombination_agents)
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/module_predictor.py", line 137, in predict_performance
+    alfworld_results = json.load(f)
+  File "/home/mixxis/miniconda3/envs/agent/lib/python3.10/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/home/mixxis/miniconda3/envs/agent/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/home/mixxis/miniconda3/envs/agent/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/mixxis/miniconda3/envs/agent/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+--------------------------------------------------------------------------------
+
+Time: 2025-07-08 19:12:20.556405
+Error in agent search process: name 'TooluseANYTOOL' is not defined
+Detailed error info:
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/agent_search.py", line 481, in agent_search
+    predicted_scores = predict_performance(candidates, archives, filtered_recombination_agents)
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/module_predictor.py", line 152, in predict_performance
+    golden_case.append(get_module_code(case))
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/module_predictor.py", line 119, in get_module_code
+    tooluse_class = eval(f"Tooluse{tooluse.upper()}")
+  File "<string>", line 1, in <module>
+NameError: name 'TooluseANYTOOL' is not defined. Did you mean: 'ToolUseAnyTool'?
+
+--------------------------------------------------------------------------------
+
+Time: 2025-07-08 20:14:52.966229
+Error in agent search process: name 'TooluseANYTOOL' is not defined
+Detailed error info:
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/agent_search.py", line 481, in agent_search
+    predicted_scores = predict_performance(candidates, archives, filtered_recombination_agents)
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/module_predictor.py", line 152, in predict_performance
+    golden_case.append(get_module_code(case))
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/module_predictor.py", line 119, in get_module_code
+    tooluse_class = eval(f"Tooluse{tooluse.upper()}")
+  File "<string>", line 1, in <module>
+NameError: name 'TooluseANYTOOL' is not defined. Did you mean: 'TooluseAnyTool'?
+
+--------------------------------------------------------------------------------
+
+Time: 2025-07-08 23:05:56.699952
+Error in agent search process: 'bench'
+Detailed error info:
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/agent_search.py", line 481, in agent_search
+    predicted_scores = predict_performance(candidates, archives, filtered_recombination_agents)
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/module_predictor.py", line 193, in predict_performance
+    golden_case.append(get_module_code(case))
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/module_predictor.py", line 158, in get_module_code
+    prompt_answer += f"Tooluse module: {module_name_dict['tooluse'][tooluse]}\n"
+KeyError: 'bench'
+
+--------------------------------------------------------------------------------
+
+Time: 2025-07-08 23:11:07.615438
+Error in agent search process: 'none'
+Detailed error info:
+Traceback (most recent call last):
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/agent_search.py", line 481, in agent_search
+    predicted_scores = predict_performance(candidates, archives, filtered_recombination_agents)
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/module_predictor.py", line 193, in predict_performance
+    golden_case.append(get_module_code(case))
+  File "/media/mixxis/T7/Project/Python/AgentSquare-main/search/module_predictor.py", line 158, in get_module_code
+    prompt_answer += f"Tooluse module: {module_name_dict['tooluse'][tooluse]}\n"
+KeyError: 'none'
+
+--------------------------------------------------------------------------------

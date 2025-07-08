@@ -1,0 +1,7 @@
+{
+    "None": "Do not use memory module",
+    "DILU": "Store the task resolution trajectory. Based on the task name to retrieve the relevant task solving trajectory",
+    "Generative": "Store the task resolution trajectories. Retrieve relevant task-solving trajectories based on the task name, and select the one that the LLM considers most important",
+    "TP": "Store the task resolution trajectories. Retrieve relevant task-solving trajectories based on the task name, and output guidance to heuristically assist the LLM in completing the current task",
+    "Voyager": "Store the task resolution trajectory, and summarize the task resolutiong trajectory. Based on the task summary to retrieve relevant the task resolution trajectory"
+}

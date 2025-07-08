@@ -1,0 +1,7 @@
+{
+    "None": "Do not use tooluse module",
+    "IO": "Input the task description to a tool use module and directly output the response",
+    "ANYTOOL": "Select the tool category based on the task description, and then select the specific tool",
+    "TOOLBENCH": "Convert the instructions and API documentation into vector representations, and then retrieve the most relevant API by calculating the vector similarity.",
+    "TOOLFORMER": "Determine the best response using an LLM by inputting the problem description into a tool-use module, performing three selections, and directly outputting the best one."
+}

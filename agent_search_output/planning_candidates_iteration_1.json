@@ -1,0 +1,8 @@
+{
+    "None": "Do not use planning module",
+    "IO": "Input the task description to a LLM and directly output the sub-tasks",
+    "DEPS": "Input a task description in a LLM and output sub-goals. It is commonly used for embodied intelligence tasks.",
+    "HUGGINGGPT": "Input a task description into a LLM and output as few sub-tasks as possible. It is often used for image processing tasks and focuses on the correlation between sub-tasks.",
+    "OPENAGI": "Input a task description in a LLM and output a to-do list. It is often used to solve tasks using various tools",
+    "Voyager": "Input a task description in a LLM and output sub-goals.  It is often used to solve open world exploration problems"
+}

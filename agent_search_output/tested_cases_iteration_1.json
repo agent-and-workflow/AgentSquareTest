@@ -1,0 +1,51 @@
+[
+    {
+        "planning": "None",
+        "reasoning": "IO",
+        "tooluse": "None",
+        "memory": "None",
+        "performance": 0.56
+    },
+    {
+        "planning": "StructuredTaskPlanner",
+        "reasoning": "IO",
+        "tooluse": "None",
+        "memory": "None",
+        "performance": 0
+    },
+    {
+        "planning": "None",
+        "reasoning": "ContextAwareFeedback",
+        "tooluse": "None",
+        "memory": "None",
+        "performance": 0
+    },
+    {
+        "planning": "None",
+        "reasoning": "IO",
+        "tooluse": "None",
+        "memory": "Generative",
+        "performance": 0
+    },
+    {
+        "planning": "IterativePlanning",
+        "reasoning": "IO",
+        "tooluse": "None",
+        "memory": "None",
+        "performance": 0
+    },
+    {
+        "planning": "None",
+        "reasoning": "ReflectiveIterativeReasoning",
+        "tooluse": "None",
+        "memory": "None",
+        "performance": 0
+    },
+    {
+        "planning": "DEPS",
+        "reasoning": "IO",
+        "tooluse": "None",
+        "memory": "None",
+        "performance": 0
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "planning": "None",
+        "reasoning": "IO",
+        "tooluse": "None",
+        "memory": "None",
+        "performance": 0.56
+    },
+    {
+        "planning": "StructuredTaskPlanner",
+        "reasoning": "IO",
+        "tooluse": "None",
+        "memory": "None",
+        "performance": 0
+    },
+    {
+        "planning": "None",
+        "reasoning": "ContextAwareFeedback",
+        "tooluse": "None",
+        "memory": "None",
+        "performance": 0
+    },
+    {
+        "planning": "None",
+        "reasoning": "IO",
+        "tooluse": "None",
+        "memory": "Generative",
+        "performance": 0
+    }
+]
