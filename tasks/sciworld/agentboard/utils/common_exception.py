@@ -1,2 +1,0 @@
-class PageNumberError(Exception):
-    pass

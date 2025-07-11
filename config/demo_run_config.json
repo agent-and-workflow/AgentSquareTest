@@ -1,0 +1,6 @@
+{
+  "translate_str": "Recent advancements in Large Language Models (LLMs) have led to a rapid  growth of agentic systems capable of handling a wide range of complex tasks.",
+  "workflow_generator": "gpt-3.5-turbo",
+  "db_config_path" : "./config/db_config.json",
+  "dify_config_path" : "./config/dify_config.json"
+}

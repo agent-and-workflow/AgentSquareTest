@@ -315,11 +315,11 @@ class DualLayerMemory():
 Summary: '''
         summary_response = llm_response(prompt=summary_prompt, model=self.llm_type, temperature=0.1)
         
-        return f'Detailed Memory:
+        return f'''Detailed Memory:
 {detailed_trajectory}
 
 Summary Insight:
-{summary_response}'
+{summary_response}'''
 
     def addMemory(self, current_situation):
         # Extract task description
